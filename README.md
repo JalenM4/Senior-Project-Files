@@ -28,14 +28,14 @@ A custom MATLAB-based GUI provides model selection, performance visualization, a
 ---
 
 ## 📁 Folder Structure
-├── evaluateModel.m # Evaluates model predictions and metrics
-├── createImgDB.m # Loads and preprocesses image dataset
-├── AlexNetClassification.m # Sets up AlexNet for HER2 classification
-├── TransferLearnVGG.m # VGG19 model setup with new classification layers
-├── InceptionNet.m # InceptionNet model setup and training
-├── googleNet.m # (Optional) Experimental model setup for GoogLeNet
-├── README.md # Project documentation
-├── .git/ # Git tracking folder
+    evaluateModel.m # Evaluates model predictions and metrics
+    createImgDB.m # Loads and preprocesses image dataset
+      AlexNetClassification.m # Sets up AlexNet for HER2 classification
+    TransferLearnVGG.m # VGG19 model setup with new classification layers
+    InceptionNet.m # InceptionNet model setup and training
+    googleNet.m # (Optional) Experimental model setup for GoogLeNet   
+    README.md # Project documentation
+    .git/ # Git tracking folder
 ---
 
 ## 📊 Results Summary
