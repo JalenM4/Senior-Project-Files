@@ -1,0 +1,3 @@
+imdsTrain = imageDatastore(['..' filesep() '..' filesep() 'Data' filesep() 'Common Data' filesep() 'train' ],  'IncludeSubfolders',true, 'LabelSource', 'foldernames');
+imdsTest = imageDatastore(['..' filesep() '..' filesep() 'Data' filesep() 'Common Data' filesep() 'test' ], 'IncludeSubfolders',true, 'LabelSource','foldernames');
+save(['..' filesep() '..' filesep() 'Data' filesep() 'Common Data' filesep() 'ImgDB.mat' ],'imdsTest','imdsTrain')
