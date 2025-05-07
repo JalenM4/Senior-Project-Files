@@ -3,7 +3,7 @@ Advancing Breast Cancer Diagnosis: Deep Learning-Based AI for Automated Histopat
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This application uses transfer learning with pretrained convolutional neural networks (CNNs) — **VGG19**, **InceptionNet**, and **AlexNet** — to classify immunohistochemically stained breast cancer tissue into 4 categories based on HER2 expression:
 - **0+** (Benign)
@@ -15,7 +15,7 @@ A custom MATLAB-based GUI provides model selection, performance visualization, a
 
 ---
 
-## 🛠️ Features
+## Features
 
 - MATLAB GUI with interactive navigation
 - Preprocessing and dataset loading automation
@@ -27,7 +27,7 @@ A custom MATLAB-based GUI provides model selection, performance visualization, a
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
     evaluateModel.m # Evaluates model predictions and metrics
     createImgDB.m # Loads and preprocesses image dataset
       AlexNetClassification.m # Sets up AlexNet for HER2 classification
@@ -38,19 +38,19 @@ A custom MATLAB-based GUI provides model selection, performance visualization, a
     .git/ # Git tracking folder
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Model       | Accuracy | Precision | Recall | F1 Score |
 |-------------|----------|-----------|--------|----------|
 | VGG19       | 90%      | 89%       | 90%    | 89%      |
-| Inception   | **91%**  | 91%       | 91%    | 90%      |
-| AlexNet     | 88%      | 87%       | 88%    | 87%      |
+| GoogLeNet   | 87%      | 86%       | 87%    | 86%      |
+| ResNet-50   | **92%**  | 91%       | 92%    | 91%      |
 
 *Note: Best performance was achieved with a learning rate of `0.00025`.*
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - MATLAB R2024b or later
 - Deep Learning Toolbox
@@ -59,12 +59,14 @@ A custom MATLAB-based GUI provides model selection, performance visualization, a
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repository:
    ```bash
    git clone https://github.com/JalenM4/Senior-Project-Files.git
-   run evaluateModel.m'''
+2. Open MATLAB and navigate to the project folder.
+3. Run the GUI or evaluate scripts like: run evaluateModel
+4. Use the GUI to load models, test predictions, and visualize confusion matrices.  
 
 ---
 
