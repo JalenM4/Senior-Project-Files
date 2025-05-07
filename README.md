@@ -76,3 +76,7 @@ Jalen Mason
 Computer Science, Class of 2025
 Virginia State University
 GitHub: @JalenM4
+
+---
+
+Let me know if you want help uploading screenshots or want a portfolio/website version too — happy to help format this for LinkedIn or your GitHub Pages next!
